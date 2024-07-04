@@ -1,0 +1,338 @@
+<!doctype html>
+<html class="no-js">
+<link rel="preload" as="font" crossorigin="anonymous" type="font/ttf" href="https://usernamenotavailable12.github.io/Font-Repository/NotoSansAmbassadori-Bold.ttf">
+<style>
+.container {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    background: rgb(0,0,0,0);
+    padding: 0px;
+    border-radius:5px;
+    background-size: cover;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    font-family: "Noto Sans Ambassadori";
+    font-weight: bold;
+}
+.container * {
+    box-sizing: border-box;
+}
+.container .number-box .wrapper {
+    padding: 6px 0px;
+    padding-left: 5px;
+    width: 100%;
+    text-align: right;
+}
+.container .number-slider {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.container .numbers {
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: -2px;
+    gap: 100px;
+}
+.numbers--box {
+    display: flex;
+    align-items: center;
+}
+.container .numbers__item {
+    width: 179px;
+    height: 61px;
+    display: flex;
+    color: #ffffff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.numbers__item.numbers__item--jvari {background-image: url("https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/4007b63e-e85a-4af4-88b5-edcf335155a5/jvari-3.png?auto=format%2Ccompress");}
+.numbers__item.numbers__item--aguri {background-image: url("https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/1964f5f5-e710-49f4-879f-4fe8227b6f69/aguri-3.png?auto=format%2Ccompress");margin-right: 10px;}
+.numbers__item.numbers__item--guli {background-image: url("https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/5ac6c4a6-ed71-4392-a909-60d72d50bc97/guli-3.png?auto=format%2Ccompress");}
+.numbers__item.numbers__item--yvavi {background-image: url("https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/ab204031-4a72-4d51-980a-42a887b0957a/yvavi-3.png?auto=format%2Ccompress");margin-right: 10px;}
+.container .numbers__item .numbers__item--icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .number__item--img {
+    width: 90px;
+}
+.container .numbers__item-wrap {
+    padding: 0 14px 0 50px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+}
+.container .numbers .lari {
+    line-height: 27px;
+    font-family: 'Noto Sans';
+    font-weight: bold;
+    padding-left: 6px;
+    font-size: 14px;
+    padding-top: 4px;
+}
+
+.container .number-box {
+    overflow: hidden;
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+    line-height: 28px;
+}
+.container .number-box .jack {
+    height: 27px;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+}
+.jack>div {
+    display: inline-block;
+    margin-top: -53px;
+    font-size: 16px;
+}
+.jack>div>span {
+    display: block;
+    font-family: 'Noto Sans';
+    font-weight: bold;
+}
+.jack>div>span.dot {
+    visibility: hidden;
+    opacity: 0;
+}
+.jack>div.go {
+    -ms-transform: translateY(-28px);
+    transform: translateY(-28px);
+}
+.jackpot-logo-amb-mob {
+    display: none;
+}
+.jackpot-logo-amb-desk {
+    display: block;
+}
+@media (max-width: 1200px) {
+    .container .numbers {
+        flex-direction: column;
+        gap: 10px;
+        background-image: url('https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/75953e46-112c-471b-8cc5-bf1f0613f439/373-100-3%201.png?auto=format%2Ccompress');
+        border-radius: 5px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .container .numbers__item {
+    width: 130px;
+    height: 33px;
+    }
+    .container {
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+      padding: 0px;
+      border: solid 1px rgb(207, 22, 125, 0.4);
+      padding-top: 2px;
+    }
+    .jack>div {
+    font-size: 11px;
+}
+.jackpot-logo-amb-desk {
+    display: none;
+}
+.jackpot-logo-amb-mob {
+    display: none;
+}
+.container .numbers__item-wrap {
+    padding: 0 14px 0 35.5px;
+}
+.container .numbers .lari {
+    font-size: 10px;
+}
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+    .container .numbers {
+        flex-direction: row;
+        gap: 80px;
+    }
+    .container .numbers__item {
+    width: 159px;
+    height: 41px;
+    }
+    .jack>div {
+    font-size: 14px;
+}
+}
+@font-face{
+  font-family: 'Noto Sans Ambassadori';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://usernamenotavailable12.github.io/Font-Repository/NotoSansAmbassadori-Bold.ttf);
+}@font-face{
+  font-family: 'Noto Sans Ambassadori';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://usernamenotavailable12.github.io/Font-Repository/NotoSansAmbassadori-Bold.ttf);
+}
+</style>
+    <div class="container">
+        <div class="numbers">
+            <img class="jackpot-logo-amb-mob" src="https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/9169f6e5-8dab-4f79-be57-ceffbdf4a40c/logo-2.png?auto=format%2Ccompress" width="110" height="auto">
+            <div class="numbers--box">
+                <div class="numbers__item numbers__item--yvavi">
+                    <div class="numbers__item-wrap">
+                        <div class="number-box">
+                            <div id="wrapp3" class="jack"></div>
+                        </div>
+                        <div class="lari">₾</div>
+                    </div>
+                </div>
+                <div class="numbers__item numbers__item--guli">
+                    <div class="numbers__item-wrap">
+                        <div class="number-box">
+                            <div id="wrapp2" class="jack"></div>
+                        </div>
+                        <div class="lari">₾</div>
+                    </div>
+                </div>
+            </div>
+            <img class="jackpot-logo-amb-desk" src="https://images.takeshape.io/5da2b4d5-59f6-412a-82c3-f6a272b532be/dev/9169f6e5-8dab-4f79-be57-ceffbdf4a40c/logo-2.png?auto=format%2Ccompress" width="170" height="auto">
+            <div class="numbers--box">
+                <div class="numbers__item numbers__item--aguri">
+                    <div class="numbers__item-wrap">
+                        <div class="number-box">
+                            <div id="wrapp1" class="jack"></div>
+                        </div>
+                        <div class="lari">₾</div>
+                    </div>
+                </div>
+                <div class="numbers__item numbers__item--jvari">
+                    <div class="numbers__item-wrap">
+                        <div class="number-box">
+                            <div id="wrapp0" class="jack"></div>
+                        </div>
+                        <div class="lari">₾</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script>
+const TIME_INTERVAL = 10;
+const JSON_URI = 'https://pod16.games.amusnet.io/stats/jackpot_AmbassadoribetGE_GEL.json';
+let intervals = [];
+let previousJackpots = [];
+
+syncJackpots();
+
+setInterval(() => {
+    syncJackpots();
+}, TIME_INTERVAL * 1000);
+
+function syncJackpots() {
+    fetch(JSON_URI, { cache: 'no-cache' })
+    .then(res => res.json())
+    .then(data => {
+        intervals.forEach(interval => clearInterval(interval));
+        intervals = [];
+
+        if (previousJackpots.length === 0) {
+            previousJackpots = [
+                parseInt(data.currentLevelI.toString().replace('.', '')),
+                parseInt(data.currentLevelII.toString().replace('.', '')),
+                parseInt(data.currentLevelIII.toString().replace('.', '')),
+                parseInt(data.currentLevelIV.toString().replace('.', ''))
+            ];
+        } else {
+            // Update previousJackpots with the latest data
+            previousJackpots[0] = parseInt(data.currentLevelI.toString().replace('.', ''));
+            previousJackpots[1] = parseInt(data.currentLevelII.toString().replace('.', ''));
+            previousJackpots[2] = parseInt(data.currentLevelIII.toString().replace('.', ''));
+            previousJackpots[3] = parseInt(data.currentLevelIV.toString().replace('.', ''));
+        }
+
+        const currentJackpots = [
+            parseInt(data.currentLevelI.toString().replace('.', '')),
+            parseInt(data.currentLevelII.toString().replace('.', '')),
+            parseInt(data.currentLevelIII.toString().replace('.', '')),
+            parseInt(data.currentLevelIV.toString().replace('.', ''))
+        ];
+        
+        const diffs = currentJackpots.map((jackpot, index) => jackpot - previousJackpots[index]);
+
+        const wrap = [];
+        const domArr = [];
+
+        previousJackpots.forEach((jackpot, index) => {
+            createInitialDomElements(wrap, domArr, jackpot, index);
+
+            const updateInterval = TIME_INTERVAL * 1000 / diffs[index]; // Calculate update interval based on difference
+            intervals.push(
+                setInterval(() => {
+                    iterateAndUpdateJackpot(previousJackpots, index, wrap, domArr);
+                }, updateInterval)
+            );
+        });
+    });
+}
+
+function createInitialDomElements(wrap, domArr, jackpot, index) {
+    wrap[index] = document.getElementById('wrapp' + index);
+    wrap[index].innerHTML = '';
+    domArr[index] = [];
+
+    jackpot.toString().split('').forEach((number, numIndex) => {
+        const numDom = document.createElement('div');
+        numDom.innerHTML = parseInt(number)
+        wrap[index].appendChild(numDom);
+        domArr[index].push(numDom)
+    
+        if (((jackpot.toString().length - 3) - numIndex) % 3 == 0) {
+            const numDomSeparator = document.createElement('div');
+            const separator = jackpot.toString().length - 3 == numIndex ? '.' : ',';
+            for(var i = 0; i < 3; i ++){
+                const a = document.createElement('div');
+                a.innerHTML = separator;
+                numDomSeparator.appendChild(a);
+            }
+            wrap[index].appendChild(numDomSeparator);
+        }
+    });
+}
+function iterateAndUpdateJackpot(jackpots, index, wrap, domArr) {
+    jackpots[index]++
+    const jackpot = jackpots[index];
+
+    const jackLength = jackpot.toString().length;
+    if (wrap[index].children.length != jackLength + Math.floor(jackLength / 3)) {
+        createInitialDomElements(wrap, domArr, jackpot, index);
+        return;
+    }
+
+    const el = domArr[index][domArr[index].length - 1];
+
+    el.innerHTML = (parseInt(el.innerHTML) + 1) % 10;
+
+    let div = 1;
+    for (let i = domArr[index].length - 1; i >= 0; i--) {
+        div *= 10;
+        if (jackpot % div == 0) {
+            domArr[index][i].innerHTML = (parseInt(domArr[index][i].innerHTML) + 1) % 10
+        }
+    }
+}
+    </script>
+</html>
