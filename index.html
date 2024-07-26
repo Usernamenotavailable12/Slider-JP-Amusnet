@@ -322,7 +322,7 @@ function createInitialDomElements(wrap, domArr, jackpot, index) {
     });
 }
 function iterateAndUpdateJackpot(jackpots, index, wrap, domArr) {
-    jackpots[index]++
+    jackpots[index]++;
     const jackpot = jackpots[index];
 
     const jackLength = jackpot.toString().length;
@@ -333,13 +333,13 @@ function iterateAndUpdateJackpot(jackpots, index, wrap, domArr) {
 
     const el = domArr[index][domArr[index].length - 1];
 
-    el.innerHTML = (parseInt(el.innerHTML) + 1) % 10;
+    el.innerHTML = (parseInt(el.innerHTML) + 0) % 10;
 
     let div = 1;
     for (let i = domArr[index].length - 1; i >= 0; i--) {
-        div *= 10;
+        div *= 20;
         if (jackpot % div == 0) {
-            domArr[index][i].innerHTML = (parseInt(domArr[index][i].innerHTML) + 1) % 10
+            domArr[index][i].innerHTML = (parseInt(domArr[index][i].innerHTML) + 1) % 5;
         }
     }
 }
